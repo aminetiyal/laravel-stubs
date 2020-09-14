@@ -12,15 +12,19 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require aminetiyal/laravel-stubs
+composer require --dev aminetiyal/laravel-stubs
 ```
 
 ## Usage
 
-``` php
-// Usage description here
+``` bash
+php artisan at:stubs
 ```
+Or
 
+``` bash
+php artisan vendor:publish --tag aminetiyal:stubs
+```
 ### Testing
 
 ``` bash
